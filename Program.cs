@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace WHAT
 {
-    class Programac
+    class Program
     {
         static void Main(string[] args)
         {
-            Cliente c = new Cliente("localhost", 4404);
-            c.Start();
-            c.Send("Hola");
+            SERVER s = new SERVER("localhost", 4404);
+            s.Start();
+            
         }
     }
 }
